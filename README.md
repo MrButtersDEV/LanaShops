@@ -4,6 +4,7 @@
 
 [![Discord](https://img.shields.io/badge/Discord-BUTTERFIELD8%233907-blue)](https://discord.gg/nnC7nkT)
 [![PayPal](https://img.shields.io/badge/Donate-Paypal-orange)](https://paypal.me/ButterfieldMedia?locale.x=en_US)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/MrButtersDEV/LanaShops)](https://github.com/MrButtersDEV/LanaShops/releases)
 
 ### Commands & Permissions:
 + Reload Command: `/ls-reload`
