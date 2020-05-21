@@ -48,7 +48,7 @@ Messages:
   shopCreate: "&6Shop successfully created!"
   shopNotEnough: "&6You don't have &c{amount} &6of &c{material}." #Placeholders: {amount} & {material}
   shopBuyRequiredMaterial: "&7You can't buy the same item as the shop is requesting"
-  shopOpenUnownedContainer: "&eYou may not open this chest as it's a shop that you do not own"
+  shopOpenUnownedContainer: "&eYou may not open this as it's a shop owned by {owner}" #Placeholders: {owner}
   shopInUse: "&7This shop is in use please check back later!"
   breakShopSign: "&cYou cannot break someone else's shop sign"
   breakShopContainer: "&cYou cannot break someone else's shop chest"
