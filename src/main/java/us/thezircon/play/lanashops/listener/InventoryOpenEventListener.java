@@ -61,7 +61,7 @@ public class InventoryOpenEventListener implements Listener {
             if (shopSign != null) {
                 if (!player.getName().equals(shopSign.getPlayer().getName()) && shopSign.getPlayer() != null) {
                     e.setCancelled(true);
-                    player.sendMessage(Messages.ShopOpenUnownedContainer());
+                    player.sendMessage(Messages.ShopOpenUnownedContainer().replace("{owner}", shopSign.getPlayer().getName()));
                 }
             }
         }
