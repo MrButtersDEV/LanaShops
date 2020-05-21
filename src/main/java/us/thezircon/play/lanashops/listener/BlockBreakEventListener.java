@@ -67,7 +67,7 @@ public class BlockBreakEventListener implements Listener {
                 }
             }
 
-            if (!shopSign.isShopSign()) {
+            if (shopSign!=null && !shopSign.isShopSign()) {
                 return;
             }
 

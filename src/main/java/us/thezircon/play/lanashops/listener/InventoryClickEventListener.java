@@ -7,6 +7,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.ItemMeta;
 import us.thezircon.play.lanashops.LanaShops;
 import us.thezircon.play.lanashops.utils.BuyMenu;
 import us.thezircon.play.lanashops.utils.Messages;
@@ -41,6 +42,8 @@ public class InventoryClickEventListener implements Listener {
                         player.getInventory().addItem(e.getCurrentItem());
                         e.getCurrentItem().setType(buyMenu.getMaterial());
                         e.getCurrentItem().setAmount(buyMenu.getAmt());
+                        ItemMeta meta = new ItemStack(buyMenu.getMaterial()).getItemMeta();
+                        e.getCurrentItem().setItemMeta(meta);
                         player.getInventory().setItem(slot, new ItemStack(buyMenu.getMaterial(), player.getInventory().getItem(slot).getAmount()-buyMenu.getAmt()));
                         //Chest Side
                         ItemStack items[] = e.getView().getTopInventory().getContents();
