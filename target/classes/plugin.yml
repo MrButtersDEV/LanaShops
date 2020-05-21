@@ -1,0 +1,23 @@
+name: LanaShops
+version: 1.0-SNAPSHOT
+main: us.thezircon.play.lanashops.LanaShops
+prefix: LanaShops
+api-version: 1.13
+authors: [BUTTERFIELD8]
+description: Trading based shop plugin
+commands:
+  ls-reload:
+    description: Reloads the plugins config & messages
+permissions:
+  lanashops.create:
+    description: Allows a player to create a shop.
+    default: true
+  lanashops.create.others:
+    description: Allows a player to create a shop of another player.
+    default: op
+  lanashops.break.others:
+    description: Allows a player to remove a shop owned by another player.
+    default: op
+  lanashops.reload:
+    description: Allows a player to reload the plugin's config
+    default: op
