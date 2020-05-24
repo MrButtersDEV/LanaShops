@@ -26,3 +26,5 @@ Messages:
   breakShopSign: "&cYou cannot break someone else's shop sign"
   breakShopContainer: "&cYou cannot break someone else's shop chest"
   breakShopOthers: "&bYou need to shift-click to break another players shop"
+  shopIgnoreEnable: "&7You may no longer ignoring access restrictions to player shops"
+  shopIgnoreDisable: "&7You are now ignoring shop access restrictions"

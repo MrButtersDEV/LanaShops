@@ -1,5 +1,5 @@
 name: LanaShops
-version: 1.2-SNAPSHOT
+version: 1.3-SNAPSHOT
 main: us.thezircon.play.lanashops.LanaShops
 prefix: LanaShops
 api-version: 1.13
@@ -8,6 +8,9 @@ description: Trading based shop plugin
 commands:
   ls-reload:
     description: Reloads the plugins config & messages
+  shopignore:
+    description: Allows a player to open another players shop
+    aliases: [si, shopbypass]
 permissions:
   lanashops.create:
     description: Allows a player to create a shop.
@@ -20,4 +23,7 @@ permissions:
     default: op
   lanashops.reload:
     description: Allows a player to reload the plugin's config
+    default: op
+  lanashops.shopignore:
+    description: Allows a player to open another players shop
     default: op

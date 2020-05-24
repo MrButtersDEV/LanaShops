@@ -55,6 +55,14 @@ public class Messages {
         return Prefix() + " " + color(plugin.getConfig().getString("Messages.breakShopOthers"));
     }
 
+    public static String ShopIgnoreEnable() {
+        return Prefix() + " " + color(plugin.getConfig().getString("Messages.shopIgnoreEnable"));
+    }
+
+    public static String ShopIgnoreDisable() {
+        return Prefix() + " " + color(plugin.getConfig().getString("Messages.shopIgnoreDisable"));
+    }
+
     public static String Reloading() {
         return Prefix() + " " + color(plugin.getConfig().getString("Messages.reload"));
     }
