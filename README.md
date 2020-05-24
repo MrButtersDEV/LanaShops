@@ -9,6 +9,9 @@
 ### Commands & Permissions:
 + Reload Command: `/ls-reload`
     - Permission: `lanashops.reload`
++ Shop Ignore Command: `/shopignore`
+    - aliases: `/si`, `/shopbypass`
+    - Permission: `lanashops.shopignore`
 
 ### Other Permissions 
 + `lanashops.create`:
@@ -53,4 +56,6 @@ Messages:
   breakShopSign: "&cYou cannot break someone else's shop sign"
   breakShopContainer: "&cYou cannot break someone else's shop chest"
   breakShopOthers: "&bYou need to shift-click to break another players shop"
+  shopIgnoreEnable: "&7You are now ignoring shop access restrictions"
+  shopIgnoreDisable: "&7You may no longer ignoring access restrictions to player shops"
 ```
