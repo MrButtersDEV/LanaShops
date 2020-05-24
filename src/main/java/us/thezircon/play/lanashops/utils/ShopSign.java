@@ -26,8 +26,8 @@ public class ShopSign {
         return Material.matchMaterial(lines[2]);
     }
 
-    public Player getPlayer() {
-        return Bukkit.getPlayer(lines[3]);
+    public String getPlayer() {
+        return (lines[3]);
     }
 
 }
