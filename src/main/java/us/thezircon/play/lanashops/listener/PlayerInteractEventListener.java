@@ -44,7 +44,6 @@ public class PlayerInteractEventListener implements Listener {
                 return;
             }
 
-
             if (plugin.shopInUse.containsKey(block.getLocation())) {
                 if (plugin.shopInUse.get(block.getLocation())) {
                     player.sendMessage(Messages.ShopInUse());

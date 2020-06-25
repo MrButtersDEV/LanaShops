@@ -2,7 +2,7 @@ name: LanaShops
 version: 1.3-SNAPSHOT
 main: us.thezircon.play.lanashops.LanaShops
 prefix: LanaShops
-api-version: 1.13
+api-version: 1.16
 authors: [BUTTERFIELD8]
 description: Trading based shop plugin
 commands:
